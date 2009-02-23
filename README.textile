@@ -4,7 +4,7 @@ h4. Uploading photos with rails, "easy_swf_upload":http://github.com/over/easy_s
 
 I have used 2.2.2 rails version. For installing on Mac OS X run:
 
-<b>git clone git@github.com:over/easy-swf-upload-example.git</b>
+<b>git clone git://github.com/over/easy_swf_upload.git</b>
 
 Then, move to application directory and run:
 
