@@ -1,0 +1,15 @@
+h1. Demo application for easy_swf_upload plugin.
+
+h4. Uploading photos with rails, "easy_swf_upload":http://github.com/over/easy_swf_upload/tree/master and "paperclip":http://github.com/thoughtbot/paperclip/tree/master easily!
+
+For installing on Mac OS X run:
+
+<b>git clone git@github.com:over/easy-swf-upload-example.git</b>
+
+Then, move to application directory and run:
+
+<b>rake db:migrate</b>
+
+Now you can start server and look at application:
+
+<b>script/server</b>
