@@ -1,0 +1,3 @@
+page.insert_html :bottom, 'uploadedPhotos', :partial => "photos/photo", :object => @photo
+page.hide "photo_#{@photo.id}"
+page.visual_effect :appear, "photo_#{@photo.id}", :duration => 0.5

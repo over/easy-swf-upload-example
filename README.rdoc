@@ -1,0 +1,1 @@
+Test application of easy_swf_upload_plugin. It uses paperclip for photos managing.

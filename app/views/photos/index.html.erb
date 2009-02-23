@@ -1,0 +1,11 @@
+<div class="imageUploader">
+	<ul id="uploadedPhotos">
+		<%= render :partial => "photos/photo", :collection => @photos %>
+	</ul>
+	<div class="clear"></div>
+	<div class="uploader">
+		<%= swf_upload_area "Add photos", :url => upload_photo_path,
+	          :filetypes => "*.jpg; *.gif",
+	          :button_style => "font-family: Arial, sans-serif; font-size: 14pt; " %>
+	</div>
+</div>
